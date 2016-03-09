@@ -5,7 +5,7 @@ import (
 
 	"github.com/slb350/axeco/controller"
 	"github.com/slb350/axeco/route/middleware/acl"
-	"github.com/slb350/axeco/route/middleware/httprouterwrapper"
+	hr "github.com/slb350/axeco/route/middleware/httprouterwrapper"
 	"github.com/slb350/axeco/route/middleware/logrequest"
 	"github.com/slb350/axeco/route/middleware/pprofhandler"
 	"github.com/slb350/axeco/shared/session"
